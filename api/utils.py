@@ -1,4 +1,5 @@
 from .models import Dish
+from django.db.models import Q
 import random
 import json
 import ast
@@ -18,18 +19,27 @@ def filterDishes(filter, queryset):
 
 
 def randomMenu(config, user):
-    all_dishes = Dish.objects.filter(owner=user)
+    all_dishes = Dish.objects.filter(Q(owner=user) | Q(owner_id=6)) #Filter for custom dishes plus default ones
     random_menu = []
     for choice in config:
         if choice != None:
             filtered_dishes = filterDishes(choice, all_dishes)
             dish = random.choice(filtered_dishes)
-            dish_json = {
-                "id": dish.id,
-                "name": dish.name,
-                "is_veggie": dish.is_veggie,
-                "is_vegan": dish.is_vegan
-            }
+
+            unique = False
+            i = 0
+            while not unique:
+                dish = random.choice(filtered_dishes)
+                dish_json = {
+                    "id": dish.id,
+                    "name": dish.name,
+                    "is_veggie": dish.is_veggie,
+                    "is_vegan": dish.is_vegan
+                }
+                i+=1
+                if dish_json not in random_menu or i > 3:
+                    unique = True
+
             random_menu.append(dish_json)
         else:
             random_menu.append(choice)
@@ -62,6 +72,8 @@ def dishListToDict(data):
     return new_data
 
 def ingredientsToString(data):
+    print("···········································")
+    print(data)
     ing_json = data['ingredients']
     ing_str = json.dumps(ing_json)
     data['ingredients'] = ing_str

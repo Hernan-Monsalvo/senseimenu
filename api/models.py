@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 from django.utils import timezone
 import json
 
-# Create your models here.
+User._meta.get_field('email')._unique = True
 class MyUser(User, models.Model):
 
     is_verified = models.BooleanField(default=True)

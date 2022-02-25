@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+        <div class="header">
+            <p>{{menu.owner}}</p>
+        </div>
+
+        <div class="title">
+            <h3>Tu Menu Semanal</h3>
+        </div>
+        <hr>
+        <table>
+            <tr>
+                <th>Dia</th>
+                <th>Almuerzo</th>
+                <th>Cena</th>
+            </tr>
+            <tr>
+                <td>Lunes</td>
+                <td>{{menu.mon_lun}}</td>
+                <td>{{menu.mon_din}}</td>
+            </tr>
+            <tr>
+                <td>Martes</td>
+                <td>{{menu.tue_lun}}</td>
+                <td>{{menu.tue_din}}</td>
+            </tr>
+            <tr>
+                <td>Miercoles</td>
+                <td>{{menu.wed_lun}}</td>
+                <td>{{menu.wed_din}}</td>
+            </tr>
+            <tr>
+                <td>Jueves</td>
+                <td>{{menu.thu_lun}}</td>
+                <td>{{menu.thu_din}}</td>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <td>{{menu.fri_lun}}</td>
+                <td>{{menu.fri_din}}</td>
+            </tr>
+            <tr>
+                <td>Sabado</td>
+                <td>{{menu.sat_lun}}</td>
+                <td>{{menu.sat_din}}</td>
+            </tr>
+            <tr>
+                <td>Domingo</td>
+                <td>{{menu.sun_lun}}</td>
+                <td>{{menu.sun_din}}</td>
+            </tr>
+        </table>
+
+</body>
+
+<style>
+@page {
+    size: A4;
+    margin: 0.1in 0.1in 0.1in 0.1in;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        border-radius: 5px;
+        min-height: 1095px
+    }
+    .header{
+        text-align: right;
+        margin-right: 15px;
+        font-size: 12px;
+    }
+    .title{
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 20px;
+    }
+    .data{
+        text-align: left;
+        margin-left: 25px;
+        font-size: 12px;
+    }
+    .images{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .img{
+        padding: 4px;
+        flex-basis: 32%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img img{
+        height: 160px;
+        max-width: 200px;
+        border-radius: 5px;
+    }
+    .description{
+        text-align: left;
+        margin-left: 25px;
+        font-size: 12px;
+    }
+    .firma{
+        text-align: right;
+        margin-right: 15px;
+    }
+    .firma img{
+        height: 140px;
+        border-radius: 5px;
+    }
+    .about{
+        margin: 20px;
+        margin-top: 40px;
+    }
+    .about h3{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .about h4{
+    font-style: italic;
+    }
+
+</style>
+
+</html>

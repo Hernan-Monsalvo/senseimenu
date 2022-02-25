@@ -15,8 +15,28 @@ class DishSerializer(serializers.ModelSerializer):
 
         return ingredientsToDict(data)
 
-class MenuSerializer(serializers.ModelSerializer):
+class MenuDetailSerializer(serializers.ModelSerializer):
+    mon_lun = DishSerializer()
+    wed_lun = DishSerializer()
+    tue_lun = DishSerializer()
+    thu_lun = DishSerializer()
+    fri_lun = DishSerializer()
+    sat_lun = DishSerializer()
+    sun_lun = DishSerializer()
 
+    mon_din = DishSerializer()
+    tue_din = DishSerializer()
+    wed_din = DishSerializer()
+    thu_din = DishSerializer()
+    fri_din = DishSerializer()
+    sat_din = DishSerializer()
+    sun_din = DishSerializer()
+
+    class Meta:
+        model = WeekMenu
+        exclude = ['shopping_list', ]
+
+class MenuSerializer(serializers.ModelSerializer):
     class Meta:
         model = WeekMenu
         exclude = ['shopping_list', ]
