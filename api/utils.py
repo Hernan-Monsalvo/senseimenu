@@ -19,7 +19,7 @@ def filterDishes(filter, queryset):
 
 
 def randomMenu(config, user):
-    all_dishes = Dish.objects.filter(Q(owner=user) | Q(owner_id=6)) #Filter for custom dishes plus default ones
+    all_dishes = Dish.objects.filter(Q(owner=user) | Q(owner_id=2)) #Filter for custom dishes plus default ones
     random_menu = []
     for choice in config:
         if choice != None:
@@ -72,8 +72,6 @@ def dishListToDict(data):
     return new_data
 
 def ingredientsToString(data):
-    print("···········································")
-    print(data)
     ing_json = data['ingredients']
     ing_str = json.dumps(ing_json)
     data['ingredients'] = ing_str
@@ -86,3 +84,4 @@ def ingredientsToDict(data):
     data['ingredients'] = ing_json
 
     return data
+

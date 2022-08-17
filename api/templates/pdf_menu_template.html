@@ -18,7 +18,7 @@
             <h3>Tu Menu Semanal</h3>
         </div>
         <hr>
-        <table>
+        <table class="table-data">
             <tr>
                 <th>Dia</th>
                 <th>Almuerzo</th>
@@ -54,7 +54,7 @@
                 <td>{{menu.sat_lun}}</td>
                 <td>{{menu.sat_din}}</td>
             </tr>
-            <tr>
+            <tr class="last-row">
                 <td>Domingo</td>
                 <td>{{menu.sun_lun}}</td>
                 <td>{{menu.sun_din}}</td>
@@ -84,53 +84,28 @@
         text-decoration: underline;
         margin-bottom: 20px;
     }
-    .data{
-        text-align: left;
-        margin-left: 25px;
-        font-size: 12px;
+    table, th, td {
+
+      padding: 3px;
+      text-align: center;
+      margin-top: 2rem;
     }
-    .images{
-        display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: space-around;
-        margin-bottom: 30px;
+    .table-data{
+    font-size: 1.5rem;
+    margin: 0 auto;
+    
     }
-    .img{
-        padding: 4px;
-        flex-basis: 32%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    th{
+    border: 4px solid red;
+    border-radius: 25px 25px 0 0;
     }
-    .img img{
-        height: 160px;
-        max-width: 200px;
-        border-radius: 5px;
+    td{
+        border-left: 4px solid red;
+        border-right: 4px solid red;
+        border-bottom: 2px solid black;
     }
-    .description{
-        text-align: left;
-        margin-left: 25px;
-        font-size: 12px;
-    }
-    .firma{
-        text-align: right;
-        margin-right: 15px;
-    }
-    .firma img{
-        height: 140px;
-        border-radius: 5px;
-    }
-    .about{
-        margin: 20px;
-        margin-top: 40px;
-    }
-    .about h3{
-        text-align: center;
-        text-decoration: underline;
-    }
-    .about h4{
-    font-style: italic;
+    .last-row td{
+        border-bottom: 4px solid red;
     }
 
 </style>

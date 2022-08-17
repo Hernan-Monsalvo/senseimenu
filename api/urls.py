@@ -5,6 +5,7 @@ urlpatterns = [
     path('ping', PingView.as_view()),
     path('dish', DishView.as_view()),
     path('dish/<int:pk>', DishDetailView.as_view()),
+    path('dish/<int:pk>/clone', DishCloneView.as_view()),
     path('menu/random', MenuRandomView.as_view()),
     path('menu', MenuView.as_view()),
     path('menu/<int:pk>', MenuDetailView.as_view()),

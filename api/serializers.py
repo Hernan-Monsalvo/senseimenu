@@ -12,6 +12,8 @@ class DishSerializer(serializers.ModelSerializer):
 
     def to_representation(self, instance):
         data = super(DishSerializer, self).to_representation(instance)
+        context_user = self.context.get("user")
+        data['is_owner'] = data['owner'] == context_user
 
         return ingredientsToDict(data)
 

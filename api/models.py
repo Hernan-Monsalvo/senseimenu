@@ -91,7 +91,15 @@ class WeekMenu(models.Model):
 
         ing_list = list(filter(lambda ing: ing['amount'] != '0', ing_list))
 
-        self.shopping_list = json.dumps(ing_list)
+        #AI clasification
+        unclasified_list = json.dumps(ing_list)
+        openai.api_key = "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"
+        command = f'separar estos productos: {str(unclasified_list)} en 3 listas distintas: supermercado, carniceria, verduleria. el formado debe ser: "lista1":["producto1", "producto2" ], "lista2": ["producto3", "producto4" ]. debe ser formato json y cada elemento debe tener su peso.'
+        clasified_list = openai.Completion.create(model="text-davinci-002", prompt=command, temperature=0.1, max_tokens=lenght)["choices"][0]["text"]
+
+        print(clasified_list)
+
+        self.shopping_list = json.dumps(unclasified_list)
         self.save()
 
 

@@ -12,6 +12,7 @@ from django.template.loader import render_to_string
 from django.http import HttpResponse
 from weasyprint import HTML
 from datetime import datetime
+from django.shortcuts import get_object_or_404
 
 
 def get_data(request):
@@ -40,12 +41,14 @@ class DishView(APIView):
         type = request.query_params.get('type')
         if type is not None:
             dishes = filterDishes(type, dishes)
-        serializer = DishSerializer(dishes, many=True)
+        serializer = DishSerializer(dishes, many=True, context={"user":user.pk})
         return Response(serializer.data)
 
     def post(self, request):
 
         user = request.user
+        if user.email == "guest@senseimenu.com":
+            return Response({"status":"error", "message": "guest cant create dishes"}, status=status.HTTP_400_BAD_REQUEST)
         data = get_data(request)
         data['owner'] = user
         newData = ingredientsToString(data)
@@ -58,13 +61,14 @@ class DishView(APIView):
 
 
 class DishDetailView(APIView):
+    permission_classes = [IsAuthenticated]
 
     def get(self, request, pk):
         try:
             dish = Dish.objects.get(Q(pk=pk, owner=request.user) | Q(pk=pk, owner_id=2)) #.filter(Q(owner=user) | Q(owner_id=6))
         except Dish.DoesNotExist:
             return Response(status=404)
-        serializer = DishSerializer(dish)
+        serializer = DishSerializer(dish, context={"user":request.user.pk})
         return Response(serializer.data)
 
     def patch(self, request, pk):
@@ -75,7 +79,7 @@ class DishDetailView(APIView):
         data = get_data(request)
         if "ingredients" in data:
             data = ingredientsToString(data)
-        serializer = DishSerializer(dish, data=data, partial=True)
+        serializer = DishSerializer(dish, data=data, partial=True, context={"user":request.user.pk})
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=status.HTTP_200_OK)
@@ -90,6 +94,26 @@ class DishDetailView(APIView):
         serializer = DishSerializer(dish)
         dish.delete()
         return Response(serializer.data)
+
+class DishCloneView(APIView):
+
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request, pk):
+
+        user = get_object_or_404(MyUser, pk=request.user.pk)
+        if request.user.email == "guest@senseimenu.com":
+            return Response({"status":"error", "message": "guest cant clone dishes"}, status=status.HTTP_400_BAD_REQUEST)
+
+        dish = get_object_or_404(Dish, pk=pk)
+
+        dish.pk = None
+        dish.owner = user
+        dish.save()
+
+        serializer = DishSerializer(dish, context={"user":user.pk})
+
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
 class MenuRandomView(APIView):
