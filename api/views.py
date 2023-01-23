@@ -37,7 +37,7 @@ class DishView(APIView):
     def get(self, request):
         user = request.user
 
-        dishes = Dish.objects.filter(Q(owner=user) | Q(owner_id=2))
+        dishes = Dish.objects.all()
         type = request.query_params.get('type')
         if type is not None:
             dishes = filterDishes(type, dishes)
@@ -223,6 +223,9 @@ class ShopListPDF(APIView):
         except WeekMenu.DoesNotExist:
             return Response(status=404)
 
+        if not menu.shopping_list:
+            menu.create_shoping_list()
+
         html = render_to_string("pdf_shoplist_template.html", {
             "shopList": menu.get_shoping_list()
         })
@@ -238,7 +241,6 @@ class LoginView(APIView):
 
     def get(self, request):
         user = request.user
-        print(user)
 
         return Response(200)
 
@@ -251,7 +253,7 @@ class LoginView(APIView):
             return Response(status=404)
         if user.check_password(data['password']):
             token = Token.objects.get_or_create(user=user)[0]
-            print(token)
+
         else:
             return Response({"Error": "Wrong password"}, 401)
 

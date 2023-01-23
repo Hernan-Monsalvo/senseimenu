@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -80,11 +81,29 @@ WSGI_APPLICATION = 'senseimenu.wsgi.application'
 
 #for local development
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+MYSQL_PASS = os.environ.get('MYSQL_PASS', 'hernan')
+MYSQL_USER = os.environ.get('MYSQL_USER', 'root')
+MYSQL_HOST = os.environ.get('MYSQL_HOST', 'localhost')
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+      'ENGINE': 'django.db.backends.mysql',
+      'NAME': 'senseimenu',
+      'USER': MYSQL_USER,
+      'PASSWORD': MYSQL_PASS,
+      'HOST':MYSQL_HOST,
+      'PORT':'3306',
+      'OPTIONS': {
+            'auth_plugin': 'mysql_native_password'
+        }
+}
 }
 
 # for heroku postgres

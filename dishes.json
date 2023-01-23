@@ -1,0 +1,1797 @@
+[
+    {
+        "id": 17,
+        "name": "test",
+        "description": "test desc",
+        "ingredients": [
+            {
+                "name": "Harina",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2021-11-24T12:55:05.976566Z",
+        "updated_at": "2021-11-24T12:55:05.976605Z",
+        "owner": 2,
+        "is_owner": true
+    },
+    {
+        "id": 18,
+        "name": "test",
+        "description": "test desc",
+        "ingredients": [
+            {
+                "name": "Carne",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Tapa de empanada",
+                "amount": "12",
+                "unit": "Un"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2021-11-24T13:05:54.423879Z",
+        "updated_at": "2021-11-24T13:05:54.423926Z",
+        "owner": 2,
+        "is_owner": true
+    },
+    {
+        "id": 19,
+        "name": "test2",
+        "description": "test desc2",
+        "ingredients": [
+            {
+                "name": "Pollo",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Tapa de empanada",
+                "amount": "6",
+                "unit": "Un"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.2",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2021-11-24T14:50:35.461338Z",
+        "updated_at": "2021-11-24T14:50:35.461413Z",
+        "owner": 2,
+        "is_owner": true
+    },
+    {
+        "id": 20,
+        "name": "test2",
+        "description": "test desc2",
+        "ingredients": [
+            {
+                "name": "Pollo",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Tapa de empanada",
+                "amount": "6",
+                "unit": "Un"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Papa",
+                "amount": "0.8",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2021-11-24T18:13:20.906845Z",
+        "updated_at": "2021-11-24T18:13:20.906881Z",
+        "owner": 2,
+        "is_owner": true
+    },
+    {
+        "id": 21,
+        "name": "carne",
+        "description": "test desc2",
+        "ingredients": [
+            {
+                "name": "Pollo",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Tapa de empanada",
+                "amount": "6",
+                "unit": "Un"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Papa",
+                "amount": "0.8",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2021-11-24T18:15:13.037832Z",
+        "updated_at": "2021-11-24T18:15:13.037882Z",
+        "owner": 4,
+        "is_owner": false
+    },
+    {
+        "id": 22,
+        "name": "vegan",
+        "description": "test desc2",
+        "ingredients": [
+            {
+                "name": "Pollo",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Tapa de empanada",
+                "amount": "6",
+                "unit": "Un"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Papa",
+                "amount": "0.8",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": true,
+        "created_at": "2021-11-24T18:50:06.470607Z",
+        "updated_at": "2021-11-24T18:50:06.470640Z",
+        "owner": 4,
+        "is_owner": false
+    },
+    {
+        "id": 23,
+        "name": "veggie",
+        "description": "test desc2",
+        "ingredients": [
+            {
+                "name": "Pollo",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Tapa de empanada",
+                "amount": "6",
+                "unit": "Un"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Papa",
+                "amount": "0.8",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": false,
+        "created_at": "2021-11-24T18:50:14.932020Z",
+        "updated_at": "2021-11-24T18:50:14.932051Z",
+        "owner": 4,
+        "is_owner": false
+    },
+    {
+        "id": 24,
+        "name": "carne",
+        "description": "test desc2",
+        "ingredients": [
+            {
+                "name": "Pollo",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Tapa de empanada",
+                "amount": "6",
+                "unit": "Un"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Papa",
+                "amount": "0.8",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2021-11-24T18:50:19.351867Z",
+        "updated_at": "2021-11-24T18:50:19.351916Z",
+        "owner": 4,
+        "is_owner": false
+    },
+    {
+        "id": 25,
+        "name": "vegan",
+        "description": "test desc2",
+        "ingredients": [
+            {
+                "name": "Pollo",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Tapa de empanada",
+                "amount": "6",
+                "unit": "Un"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Papa",
+                "amount": "0.8",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": true,
+        "created_at": "2021-11-24T18:50:26.624985Z",
+        "updated_at": "2021-11-24T18:50:26.625016Z",
+        "owner": 4,
+        "is_owner": false
+    },
+    {
+        "id": 26,
+        "name": "Pizza",
+        "description": "Masa con muzzarela y salsa de tomates",
+        "ingredients": [
+            {
+                "name": "Harina",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.3",
+                "unit": "Kg"
+            },
+            {
+                "name": "Salsa de tomate",
+                "amount": "0.2",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": false,
+        "created_at": "2022-02-08T14:26:24.706628Z",
+        "updated_at": "2022-02-08T14:39:47.142512Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 29,
+        "name": "Arroz con cosas",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Arroz",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Arvejas",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": true,
+        "created_at": "2022-02-09T03:17:12.015027Z",
+        "updated_at": "2022-02-09T03:17:12.015070Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 30,
+        "name": "Fideos especiales",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Fideos tallarin",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Huevo",
+                "amount": "2",
+                "unit": "Un"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:13.042604Z",
+        "updated_at": "2022-02-09T03:17:13.042667Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 31,
+        "name": "Tarta/empanada de verdura",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Tapa de tarta o empanada",
+                "amount": "2",
+                "unit": "Un"
+            },
+            {
+                "name": "Huevo",
+                "amount": "3",
+                "unit": "Un"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Jamon",
+                "amount": "0.1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Morron",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Espinaca",
+                "amount": "1",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:14.139398Z",
+        "updated_at": "2022-02-09T03:17:14.139507Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 32,
+        "name": "Curry",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Arroz",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Papa",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Batata",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Anco",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": true,
+        "created_at": "2022-02-09T03:17:15.161938Z",
+        "updated_at": "2022-02-09T03:17:15.161985Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 33,
+        "name": "Papa y batata",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Papa",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Batata",
+                "amount": "1",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": true,
+        "created_at": "2022-02-09T03:17:16.202118Z",
+        "updated_at": "2022-02-09T03:17:16.202225Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 34,
+        "name": "Pizza",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Harina p/ pizza",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.3",
+                "unit": "Kg"
+            },
+            {
+                "name": "Salsa tomate",
+                "amount": "0.2",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:17.255982Z",
+        "updated_at": "2022-02-09T03:17:17.256070Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 35,
+        "name": "Sopa de pollo",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Fideos sopa",
+                "amount": "0.3",
+                "unit": "Kg"
+            },
+            {
+                "name": "Caldo verdura o pollo",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Arvejas",
+                "amount": "0.3",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:18.318340Z",
+        "updated_at": "2022-02-09T03:17:18.318438Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 36,
+        "name": "polenta",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Polenta",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Salsa tomate",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:19.363760Z",
+        "updated_at": "2022-02-09T03:17:19.363911Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 37,
+        "name": "Noquis",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Noquis",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Salsa tomate",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": true,
+        "created_at": "2022-02-09T03:17:20.443704Z",
+        "updated_at": "2022-02-09T03:17:20.443962Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 38,
+        "name": "Ravioles",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Ravioles",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Salsa tomate",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": true,
+        "created_at": "2022-02-09T03:17:21.484716Z",
+        "updated_at": "2022-02-09T03:17:21.484762Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 39,
+        "name": "Guiso",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Papa",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Anco",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Zanahoria",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Lentejas",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": true,
+        "created_at": "2022-02-09T03:17:22.527917Z",
+        "updated_at": "2022-02-09T03:17:22.527976Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 40,
+        "name": "Fideos con tuco",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Fideos tallarin",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Salsa tomate",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": true,
+        "created_at": "2022-02-09T03:17:23.551151Z",
+        "updated_at": "2022-02-09T03:17:23.551218Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 41,
+        "name": "Sopa c/ arroz",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Bandeja p/ sopa",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Arroz",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": true,
+        "created_at": "2022-02-09T03:17:24.619302Z",
+        "updated_at": "2022-02-09T03:17:24.619387Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 42,
+        "name": "Ramen",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Fideos tallarin",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Huevo",
+                "amount": "2",
+                "unit": "Un"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Bandeja p/ sopa",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:25.664766Z",
+        "updated_at": "2022-02-09T03:17:25.664832Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 43,
+        "name": "Hamburguesas de lenteja",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Lentejas",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Arroz",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Huevo",
+                "amount": "2",
+                "unit": "Un"
+            },
+            {
+                "name": "Pan para hamburguesa",
+                "amount": "4",
+                "unit": "Un"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Morron",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Tomate",
+                "amount": "0.2",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:26.711235Z",
+        "updated_at": "2022-02-09T03:17:26.711346Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 44,
+        "name": "Risotto de hongos",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Arroz",
+                "amount": "0.4",
+                "unit": "Kg"
+            },
+            {
+                "name": "Champinones",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Queso duro",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.2",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:27.767849Z",
+        "updated_at": "2022-02-09T03:17:27.767908Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 45,
+        "name": "Gratinado de brocoli con papa",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Papa",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Brocoli",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Queso duro",
+                "amount": "0.2",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:28.801387Z",
+        "updated_at": "2022-02-09T03:17:28.801461Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 46,
+        "name": "Ratatouille",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Zucchini",
+                "amount": "0.4",
+                "unit": "Kg"
+            },
+            {
+                "name": "Berenjena",
+                "amount": "0.4",
+                "unit": "Kg"
+            },
+            {
+                "name": "Tomate",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Diente de ajo",
+                "amount": "3",
+                "unit": "Un"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.3",
+                "unit": "Kg"
+            },
+            {
+                "name": "Morron",
+                "amount": "0.3",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": true,
+        "created_at": "2022-02-09T03:17:29.856090Z",
+        "updated_at": "2022-02-09T03:17:29.857110Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 47,
+        "name": "Berenjenas rellenas",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Berenjena",
+                "amount": "0.6",
+                "unit": "Kg"
+            },
+            {
+                "name": "Arroz",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.3",
+                "unit": "Kg"
+            },
+            {
+                "name": "Morron",
+                "amount": "0.3",
+                "unit": "Kg"
+            },
+            {
+                "name": "Queso duro",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Diente de ajo",
+                "amount": "2",
+                "unit": "Un"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:30.956572Z",
+        "updated_at": "2022-02-09T03:17:30.956700Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 48,
+        "name": "Tacos vegetarianos",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Tortilla p/ taco",
+                "amount": "6",
+                "unit": "Un"
+            },
+            {
+                "name": "Zanahoria",
+                "amount": "0.3",
+                "unit": "Kg"
+            },
+            {
+                "name": "Morron",
+                "amount": "0.3",
+                "unit": "Kg"
+            },
+            {
+                "name": "Berenjena",
+                "amount": "0.3",
+                "unit": "Kg"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.3",
+                "unit": "Kg"
+            },
+            {
+                "name": "Zucchini",
+                "amount": "0.3",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": true,
+        "created_at": "2022-02-09T03:17:31.988135Z",
+        "updated_at": "2022-02-09T03:17:31.988262Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 49,
+        "name": "Empanadas de pollo",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Tapa empanada",
+                "amount": "12",
+                "unit": "Un"
+            },
+            {
+                "name": "Huevo",
+                "amount": "3",
+                "unit": "Un"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Morron",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Pata y muslo",
+                "amount": "1",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:33.016625Z",
+        "updated_at": "2022-02-09T03:17:33.016672Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 50,
+        "name": "Milanesas con pure",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Bola de lomo, cuadrada o nalga",
+                "amount": "0.7",
+                "unit": "Kg"
+            },
+            {
+                "name": "Huevo",
+                "amount": "2",
+                "unit": "Un"
+            },
+            {
+                "name": "Pan rallado",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Papa",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "diente de Ajo",
+                "amount": "2",
+                "unit": "Un"
+            },
+            {
+                "name": "Aceite",
+                "amount": "0.5",
+                "unit": "Lt"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:34.074830Z",
+        "updated_at": "2022-02-09T03:17:34.074889Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 51,
+        "name": "Pastel de papa",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Carne picada",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Huevo",
+                "amount": "3",
+                "unit": "Un"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.3",
+                "unit": "Kg"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Morron",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Papa",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:35.127956Z",
+        "updated_at": "2022-02-09T03:17:35.128015Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 52,
+        "name": "Alitas con arroz",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Alitas",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Arroz",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:36.170312Z",
+        "updated_at": "2022-02-09T03:17:36.170398Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 53,
+        "name": "Tacos de carne",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Tortilla p/ taco",
+                "amount": "12",
+                "unit": "Un"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Morron",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Bola de lomo, cuadrada o nalga",
+                "amount": "1",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:37.240411Z",
+        "updated_at": "2022-02-09T03:17:37.240498Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 54,
+        "name": "Tacos de pollo",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Tortilla p/ taco",
+                "amount": "12",
+                "unit": "Un"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Morron",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Supremas",
+                "amount": "1",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:38.271057Z",
+        "updated_at": "2022-02-09T03:17:38.271143Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 55,
+        "name": "Empanadas fritas",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Tapa empanada",
+                "amount": "12",
+                "unit": "Un"
+            },
+            {
+                "name": "Huevo",
+                "amount": "3",
+                "unit": "Un"
+            },
+            {
+                "name": "Aceite",
+                "amount": "0.6",
+                "unit": "Lt"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Morron",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Bola de lomo, cuadrada o nalga",
+                "amount": "0.7",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:39.316272Z",
+        "updated_at": "2022-02-09T03:17:39.316309Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 56,
+        "name": "Tarta de pollo",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Tapa tarta",
+                "amount": "2",
+                "unit": "Un"
+            },
+            {
+                "name": "Huevo",
+                "amount": "2",
+                "unit": "Un"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Jamon",
+                "amount": "0.1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Morron",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Pata y muslo",
+                "amount": "1",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:40.373949Z",
+        "updated_at": "2022-02-09T03:17:40.374026Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 57,
+        "name": "pollo frito",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Supremas",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Huevo",
+                "amount": "2",
+                "unit": "Un"
+            },
+            {
+                "name": "Pan rallado",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Diente de ajo",
+                "amount": "2",
+                "unit": "Un"
+            },
+            {
+                "name": "Aceite",
+                "amount": "0.5",
+                "unit": "Lt"
+            },
+            {
+                "name": "Arroz",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:41.426213Z",
+        "updated_at": "2022-02-09T03:17:41.426340Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 58,
+        "name": "Sanguche de Milanesa",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Bola de lomo, cuadrada o nalga",
+                "amount": "0.7",
+                "unit": "Kg"
+            },
+            {
+                "name": "Huevo",
+                "amount": "2",
+                "unit": "Un"
+            },
+            {
+                "name": "Pan rallado",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Pan",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Diente de ajo",
+                "amount": "2",
+                "unit": "Un"
+            },
+            {
+                "name": "Aceite",
+                "amount": "0.5",
+                "unit": "Lt"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:42.482957Z",
+        "updated_at": "2022-02-09T03:17:42.483016Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 59,
+        "name": "Sanguche de pollo",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Pan",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Supremas",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Tomate",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:43.551085Z",
+        "updated_at": "2022-02-09T03:17:43.551169Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 60,
+        "name": "Pollo al horno",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Pata y muslo",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Papa",
+                "amount": "0.6",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:44.614825Z",
+        "updated_at": "2022-02-09T03:17:44.614918Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 61,
+        "name": "Guiso de lenteja",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Papa",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Anco",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Zanahoria",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Lentejas",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Carne para guiso",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:45.648463Z",
+        "updated_at": "2022-02-09T03:17:45.648561Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 62,
+        "name": "pollo con arroz",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Arroz",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Pata y muslo",
+                "amount": "1",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:46.710451Z",
+        "updated_at": "2022-02-09T03:17:46.710618Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 63,
+        "name": "Tostaditos",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Pan lactal",
+                "amount": "1",
+                "unit": "Un"
+            },
+            {
+                "name": "Jamon",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Queso",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Lomito",
+                "amount": "0.2",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:47.777727Z",
+        "updated_at": "2022-02-09T03:17:47.777788Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 64,
+        "name": "Rollos de huevo",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Jamon",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Queso",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Huevo",
+                "amount": "6",
+                "unit": "Un"
+            },
+            {
+                "name": "Tortilla p/ taco",
+                "amount": "6",
+                "unit": "Un"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:48.874778Z",
+        "updated_at": "2022-02-09T03:17:48.874835Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 65,
+        "name": "Costillas a la riojana",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Papa",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Costillas de cerdo",
+                "amount": "0.6",
+                "unit": "Kg"
+            },
+            {
+                "name": "Arvejas",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Huevo",
+                "amount": "4",
+                "unit": "Un"
+            },
+            {
+                "name": "Jamon",
+                "amount": "0.2",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:49.961348Z",
+        "updated_at": "2022-02-09T03:17:49.961632Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 66,
+        "name": "Bifes a la criolla",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Bola de lomo, cuadrada o nalga",
+                "amount": "0.6",
+                "unit": "Kg"
+            },
+            {
+                "name": "Zanahoria",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Papa",
+                "amount": "0.4",
+                "unit": "Kg"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Morron",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Arvejas",
+                "amount": "0.2",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:51.031001Z",
+        "updated_at": "2022-02-09T03:17:51.031187Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 67,
+        "name": "Tallarines con albondigas",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Carne picada",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "ideos tallarin",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Salsa tomate",
+                "amount": "0.5",
+                "unit": "Kg"
+            },
+            {
+                "name": "Diente de ajo",
+                "amount": "2",
+                "unit": "Un"
+            },
+            {
+                "name": "Huevo",
+                "amount": "2",
+                "unit": "Un"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:52.115093Z",
+        "updated_at": "2022-02-09T03:17:52.115187Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 68,
+        "name": "Pollo teriyaki",
+        "description": null,
+        "ingredients": [
+            {
+                "name": "Supremas",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Cebolla",
+                "amount": "0.3",
+                "unit": "Kg"
+            },
+            {
+                "name": "Salsa de soja",
+                "amount": "0.2",
+                "unit": "Lt"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-02-09T03:17:53.182796Z",
+        "updated_at": "2022-02-09T03:17:53.182891Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 69,
+        "name": "Pizza",
+        "description": "Masa con muzzarela y salsa de tomate",
+        "ingredients": [
+            {
+                "name": "Harina",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": false,
+        "created_at": "2022-02-25T14:38:01.538037Z",
+        "updated_at": "2022-02-25T14:38:01.538090Z",
+        "owner": 6,
+        "is_owner": false
+    },
+    {
+        "id": 70,
+        "name": "Pizza",
+        "description": "Masa con muzzarela y salsa de tomate",
+        "ingredients": [
+            {
+                "name": "Harina",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": false,
+        "created_at": "2022-03-07T18:49:43.309670Z",
+        "updated_at": "2022-03-07T18:49:43.309706Z",
+        "owner": 8,
+        "is_owner": false
+    },
+    {
+        "id": 71,
+        "name": "test2",
+        "description": "test desc2",
+        "ingredients": [
+            {
+                "name": "Pollo",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Tapa de empanada",
+                "amount": "6",
+                "unit": "Un"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Papa",
+                "amount": "0.8",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-03-07T19:20:28.665577Z",
+        "updated_at": "2022-03-07T19:20:28.665618Z",
+        "owner": 8,
+        "is_owner": false
+    },
+    {
+        "id": 72,
+        "name": "test2",
+        "description": "test desc2",
+        "ingredients": [
+            {
+                "name": "Pollo",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Tapa de empanada",
+                "amount": "6",
+                "unit": "Un"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.2",
+                "unit": "Kg"
+            },
+            {
+                "name": "Papa",
+                "amount": "0.8",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": false,
+        "is_vegan": false,
+        "created_at": "2022-03-07T19:24:06.641577Z",
+        "updated_at": "2022-03-07T19:24:06.641634Z",
+        "owner": 8,
+        "is_owner": false
+    },
+    {
+        "id": 73,
+        "name": "Pizza",
+        "description": "Masa con muzzarela y salsa de tomate",
+        "ingredients": [
+            {
+                "name": "Harina",
+                "amount": "1",
+                "unit": "Kg"
+            },
+            {
+                "name": "Muzzarela",
+                "amount": "0.5",
+                "unit": "Kg"
+            }
+        ],
+        "is_veggie": true,
+        "is_vegan": false,
+        "created_at": "2022-03-20T02:57:16.065128Z",
+        "updated_at": "2022-03-20T02:58:33.642614Z",
+        "owner": 8,
+        "is_owner": false
+    }
+]
