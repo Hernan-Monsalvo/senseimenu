@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'senseimenu.wsgi.application'
 
 MYSQL_PASS = os.environ.get('MYSQL_PASS', 'hernan')
 MYSQL_USER = os.environ.get('MYSQL_USER', 'root')
-MYSQL_HOST = os.environ.get('MYSQL_HOST', 'localhost')
+MYSQL_HOST = os.environ.get('MYSQL_HOST', '127.0.0.1')
 
 DATABASES = {
     'default': {
