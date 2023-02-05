@@ -28,7 +28,7 @@ class PingView(APIView):
     def get(self, request):
 
         time_now = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-        return Response({"response": "pong", "time": time_now, "version": "0.0.3"})
+        return Response({"response": "pong", "time": time_now, "version": "0.0.4"})
 
 class DishView(APIView):
 
