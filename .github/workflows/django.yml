@@ -65,6 +65,7 @@ jobs:
           push: true
 
   deploy:
+    needs: [unit-tests, build-and-push-docker-image]
     name: Pull docker image and restart docker-compose
     runs-on: ubuntu-latest
     steps:
