@@ -8,7 +8,7 @@ on:
 
 jobs:
   unit-tests:
-
+    name: Django Tests
     runs-on: ubuntu-latest
     strategy:
       max-parallel: 4
@@ -63,4 +63,16 @@ jobs:
           tags: |
             hernanmonsalvo/sensei-menu-api:latest
           push: true
+
+  deploy:
+    name: Pull docker image and restart docker-compose
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@v0.1.7
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+        password: ${{ secrets.SSH_PASSWORD }}
+        script: /root/senseimenu/update_image.sh
 
